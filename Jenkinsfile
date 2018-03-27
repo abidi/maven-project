@@ -1,12 +1,12 @@
 pipeline {
     agent any
     stages{
-        stage ('Build Package'){
+        stage ('Build Package !'){
             steps {
                 build job: 'package'
             }
         }
-            stage ('first jenkins job 1'){
+            stage ('first jenkins job 1 !'){
                 steps {
                 build job: 'first-jenkins-job'
                 }
