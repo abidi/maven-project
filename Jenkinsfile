@@ -6,14 +6,14 @@ pipeline {
                 build job: 'package'
             }
         }
-            stage ('first jenkins job'){
+            stage ('first jenkins job 1'){
                 steps {
                 build job: 'first-jenkins-job'
                 }
      
             post {
                 success {
-                    echo 'Pipeline is ok'
+                    echo 'Pipeline is ok !'
                 }
             }
             }
