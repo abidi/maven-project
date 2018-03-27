@@ -15,10 +15,10 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<html>
-  <jsp:output doctype-root-element="html"
-              doctype-public="-//W3C//DTD XHTML Basic 1.0//EN"
-              doctype-system="http://www.w3.org/TR/xhtml-basic/xhtml-basic10.dtd"/>
+<html xmlns:jsp="http://java.sun.com/JSP/Page"
+      xmlns:fmt="http://java.sun.com/jsp/jstl/fmt"
+      xmlns="http://www.w3.org/1999/xhtml">
+  
   <jsp:directive.page contentType="application/xhtml+xml" />
   <head>
     <title>JSPX - XHTML Basic Example</title>
