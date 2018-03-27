@@ -3,12 +3,12 @@ pipeline {
     stages{
         stage ('Build Package !'){
             steps {
-                build job: 'package'
+                build job: 'maven-build-test'
             }
         }
-            stage ('first jenkins job 1 !'){
+            stage ('deploy artifacts!'){
                 steps {
-                build job: 'first-jenkins-job'
+                build job: 'deploy to staging'
                 }
      
             post {
